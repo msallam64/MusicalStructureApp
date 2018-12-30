@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Musical Structure APP</string>
+    <string name="playnow">NOW PLAYING </string>
+    <string name="playlist">PLAYLIST </string>
+    <string name="buy">BUY SONG  </string>
+    <string name="home"> HOME </string>
+    <string name="detail">Details About Artists and his song and can move to another activities too </string>
+    <string name="main">This is main Activity Which connect user with all Activities at the app with four option to the user </string>
+    <string name="nowplaying">This Activity which has the song been played and can stop or change the song which playing , also, user can from that activity move to any another one</string>
+    <string name="playlistdetail">This Activity which has the List of the user songs and can from it to choose any song to play or move to others activities</string>
+    <string name="buying">This Activity which can make user be able to buy his song,activity can contain for example :  \n API paypal to make the user be able to buy song with his credit card by enter his credit card number and there is method to check it and confirme his password if it is correct withdraw money to your paypal acount and user has the song at the end </string>
+</resources>

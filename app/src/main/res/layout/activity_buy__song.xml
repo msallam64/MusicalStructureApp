@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamedsallam.musicalstructureapp.BuySong">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="BUYING SONGS ACTIVITY"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/buying"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/home"
+        style="@style/button"
+        android:text="@string/home" />
+    <Button
+        android:id="@+id/nowplay"
+        style="@style/button"
+        android:text="@string/playnow" />
+    <Button
+        android:id="@+id/detail_artist"
+        style="@style/button"
+        android:text="Artist Details" />
+    <Button
+        android:id="@+id/play"
+        style="@style/button"
+        android:text="@string/playlist" />
+</LinearLayout>
